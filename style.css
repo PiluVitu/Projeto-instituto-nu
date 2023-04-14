@@ -1,0 +1,100 @@
+:root {
+  font-size: 62.5%;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+
+.hide {
+  display: none;
+}
+
+body {
+  font-size: 1.6rem;
+  background: #0f1827;
+  width: 100vw;
+  height: 100vh;
+}
+
+section {
+  max-width: 60rem;
+  height: 100%;
+
+  margin: 0 auto;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3rem;
+}
+
+section img {
+  width: 60rem;
+  height: 40rem;
+}
+
+.content {
+  text-align: center;
+}
+.content h1,
+.content h2 {
+  color: #ffffff;
+}
+.content h2 {
+  margin-top: 2rem;
+}
+
+.miniForm {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  align-items: center;
+}
+.miniForm input {
+  border: none;
+  border-radius: 1rem;
+
+  background: #335286;
+
+  padding: 1.5rem ;
+
+  text-align: center;
+  color: white;
+}
+.miniForm input::placeholder{
+  color: white;
+}
+.miniForm button {
+  padding: 1.5rem ;
+  width: 10rem;
+
+  border: none;
+  border-radius: 1rem;
+}
+.miniForm .primary {
+  background-color: green;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+.miniForm .primary:hover{
+  filter: brightness(0.9);
+
+}
+.miniForm .secondary {
+  background-color: red;
+  
+  color: wheat;
+
+  cursor: pointer;
+
+  transition: all 0.3s;
+}
+.miniForm .secondary:hover{
+ background-color: rgb(255, 11, 11);
+
+}
