@@ -15,8 +15,18 @@
 
 ### Projeto 1
 
+#### 📖 About
+
 - Projeto base para site básico onde você insere seu nome e ele exibe uma mensagem de boas vindas personalizada para você
 - **Obs:** Site do programa é bem mais simples, esse foi implementado uma verificação para o input, javascript interagindo com DOM somente pelo Js, switch de elementos depois de inserir o nome e uma interação de confirmação do botão apenas apertando espaço.
+
+#### 🚀 Tecnologias
+
+Esse projeto foi desenvolvido com as seguintes tecnologias:
+
+- HTML
+- CSS
+- JavaScript
 
 <p align="center">
   <a href= "#"><img alt="Deploy Gif" src="assets/site-one-instituto-nu.gif" width="100%"></a>
