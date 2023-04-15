@@ -16,16 +16,18 @@
 
 body {
   font-size: 1.6rem;
+  font-family: 'Ubuntu', sans-serif;
+
   background: #0f1827;
   width: 100vw;
-  height: 100vh;
+  height: 100%;
 }
 
 section {
   max-width: 60rem;
   height: 100%;
 
-  margin: 0 auto;
+  margin: 15rem auto;
 
   display: flex;
   flex-direction: column;
@@ -36,6 +38,8 @@ section {
 section img {
   width: 60rem;
   height: 40rem;
+
+  border-radius: 1rem;
 }
 
 .content {
@@ -61,40 +65,40 @@ section img {
 
   background: #335286;
 
-  padding: 1.5rem ;
+  padding: 1.5rem;
 
   text-align: center;
   color: white;
 }
-.miniForm input::placeholder{
+.miniForm input::placeholder {
   color: white;
 }
 .miniForm button {
-  padding: 1.5rem ;
+  padding: 1.5rem;
   width: 10rem;
 
   border: none;
   border-radius: 1rem;
+
+  font-weight: 700;
 }
 .miniForm .primary {
   background-color: green;
   cursor: pointer;
   transition: all 0.3s;
 }
-.miniForm .primary:hover{
+.miniForm .primary:hover {
   filter: brightness(0.9);
-
 }
 .miniForm .secondary {
   background-color: red;
-  
+
   color: wheat;
 
   cursor: pointer;
 
   transition: all 0.3s;
 }
-.miniForm .secondary:hover{
- background-color: rgb(255, 11, 11);
-
+.miniForm .secondary:hover {
+  background-color: rgb(255, 11, 11);
 }
